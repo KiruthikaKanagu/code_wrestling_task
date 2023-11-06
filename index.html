@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" sizes="72x72" href="assets/New Logo.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css"
+        integrity="sha512-oAvZuuYVzkcTc2dH5z1ZJup5OmSQ000qlfRvuoTTiyTBjwX1faoyearj8KdMq0LgsBTHMrRuMek7s+CxF8yE+w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>E-learning Platform</title>
+</head>
+
+<body class=" text-light">
+    <!-- Navbar -->
+    <div class="Home-title-section-container bg-dark" class="d-flex justify-content-center flex-column text-center"
+        style="background-image: url(assets/group-of-people-sitting-inside-room-2422294-1920x1000.jpg); background-repeat: no-repeat; background-size: fit-content;  max-height: 1200px;   min-height: 600px;">
+        <header class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark mb-2 mx-3 px-4 gap-3 mx-auto">
+                <div class="container ">
+                    <a class="navbar-brand " href="#">
+                        <h1>SkillMinds</h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0  gap-3 ">
+                            <li class="nav-item ">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#features">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#courses">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="dashboard.html">Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#ratings">Ratings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#footer">Contact</a>
+                            </li>
+
+                        </ul>
+                        <button type="button" class=" btn-custom-nav py-2 btn  position-relative" id="btn-custom-nav"><i class="bi bi-wallet2 mx-1"></i>Get
+                            More Info</button>
+                        <a href="signUp.html"><button type="button" class="btn-trade px-3 btn">Sign up</button></a>
+                    </div>
+
+                </div>
+            </nav>
+
+<div class="container dropdown hover invisible position-absolute mt-5 mx-5" id="dropdown">
+    <div class="form">
+        <form action="">
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Name" />
+            </div>
+            <div class="mb-3">
+                <input type="number" class="form-control" placeholder="Phone Number" />
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto mb-4">
+                <a href="#" class="btn btn-primary" id="js-send"><i class="fa-brands fa-telegram"></i> Send</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+        </header>
+        <!-- home-title -->
+        <section>
+            <div class="container pt-5 pb-5 text-center mt-5 mb-5">
+                <div class="Home-title-section ">
+                    <h1 class="Home-title ">Change is the <br> end result
+                        of all true Learning</h1>
+                    <p class="Home-description">Take great online courses from any where in the world</p>
+                </div>
+                <button type="button" class="btn btn-green btn-success px-3 mx-auto">EXPLORE
+                </button>
+
+            </div>
+        </section>
+    </div>
+    <!-- home-title-ends -->
+
+    <!-- explore -->
+    <div class="container text-dark bg-white pt-5 explore">
+        <div class="row gy-4 gx-4">
+            <div class="col-md-6 col-12">
+                <h2>Find Courses <br> on almost any <br> topic</h2>
+
+                <p>Build your library for your career <br>
+                    and personal growth</p>
+                <button class="btn border">Explore courses <i class="bi bi-arrow-right mx-2"></i></button>
+            </div>
+            <div class="col-md-6 col-12 d-flex justify-content-end align-items-center">
+                <img class="img-fluid" src="assets/half-img.PNG" alt="images">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- coursol -->
+    <div class="container-fluid bg-dark text-light text-center center-ele" id="courses">
+        <h1>Popular Courses</h1>
+        <div>
+            <p>Aspire and Accomplish! Find your interests by browsing our online courses. <br> Upgrade your skills,
+                level up
+                in life.
+                Courses from €9.99 ends July 14.</p>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5 text-dark">
+        <div class="row gx-5 gy-5 pt-4 pb-5 gap-3">
+            <div class="col card_1 hover-zoom  card-effect">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
+                    <path fill="#E03B11"
+                        d="M71.68 97.22L34.74 128l36.94 30.78a12 12 0 1 1-15.36 18.44l-48-40a12 12 0 0 1 0-18.44l48-40a12 12 0 0 1 15.36 18.44Zm176 21.56l-48-40a12 12 0 1 0-15.36 18.44L221.26 128l-36.94 30.78a12 12 0 1 0 15.36 18.44l48-40a12 12 0 0 0 0-18.44ZM164.1 28.72a12 12 0 0 0-15.38 7.18l-64 176a12 12 0 0 0 7.18 15.37a11.79 11.79 0 0 0 4.1.73a12 12 0 0 0 11.28-7.9l64-176a12 12 0 0 0-7.18-15.38Z" />
+                </svg>
+                <h4>Development</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                    mattis, pulvinar dapibus
+                    leo.</p>
+            </div>
+            <div class="col card_1  card-effect">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 14 14">
+                    <path fill="none" stroke="#E03B11" stroke-linecap="round" stroke-linejoin="round"
+                        d="M.5 13.5h13m-9 0V.5h-4v13m8 0v-7h-4v7m8 0v-10h-4v10" />
+                </svg>
+                <h4>Business</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                    mattis, pulvinar dapibus
+                    leo.</p>
+
+            </div>
+            <div class="col card_1  card-effect">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <g fill="none" fill-rule="evenodd">
+                        <path
+                            d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z" />
+                        <path fill="#E03B11"
+                            d="m22.017 3.874l-.59 1.581l-.732 1.697c-.679 1.455-1.612 3.156-2.728 4.33c-1.065 1.12-2.673 2.153-3.96 2.886a4.995 4.995 0 0 1-1.36 4.557c-2.27 2.27-4.807 2.27-6.694 1.71a9.068 9.068 0 0 1-2.864-1.43l-.865-.718a.394.394 0 0 1 .027-.624l.332-.237c.728-.53 1.479-1.182 1.658-2.08c.115-.925.18-1.43.197-1.513c.138-.689.43-1.471 1.137-2.18a4.996 4.996 0 0 1 4.557-1.36c.733-1.287 1.765-2.895 2.886-3.96c1.174-1.116 2.875-2.05 4.33-2.728l1.696-.733l1.582-.589a1.094 1.094 0 0 1 1.39 1.39ZM6.99 13.268c-.353.352-.506.734-.591 1.157c-.114.926-.18 1.43-.197 1.514c-.18.904-.709 1.65-1.15 2.148a7.29 7.29 0 0 0 1.471.63c1.384.412 3.09.412 4.71-1.207a3 3 0 1 0-4.243-4.242Zm4.99-1.975a5.028 5.028 0 0 1 1.227 1.228c.391-.227.795-.473 1.19-.732l-.03-.067a3.31 3.31 0 0 0-.66-.93a3.351 3.351 0 0 0-.817-.603l-.18-.086c-.258.395-.504.798-.73 1.19Zm7.442-6.215c-.384.159-.8.34-1.23.54c-1.408.657-2.866 1.48-3.796 2.364c-.157.15-.314.315-.47.493c.362.2.782.49 1.195.904c.414.413.703.833.904 1.195c.178-.156.344-.313.493-.47c.884-.93 1.707-2.388 2.364-3.797c.2-.43.38-.846.54-1.229Z" />
+                    </g>
+                </svg>
+                <h4>Desiging</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                    mattis, pulvinar dapibus
+                    leo.</p>
+            </div>
+
+        </div>
+
+
+        <div class="row gx-5 gy-5  pt-4 pb-5 gap-3">
+            <div class="col card_1  card-effect">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <path fill="#E03B11"
+                        d="M12 0C8.926 0 5.852 1.17 3.511 3.511c-4.37 4.371-4.66 11.299-.869 16.01a3.138 3.138 0 0 1 .719-3.314a3.138 3.138 0 0 1 3.672-.56a6.163 6.163 0 0 1 9.324-8.004a2.921 2.921 0 1 0 4.132-4.132A11.968 11.968 0 0 0 12 0zm9.36 4.481a3.138 3.138 0 0 1-.72 3.313a3.138 3.138 0 0 1-3.672.56a6.165 6.165 0 0 1-.61 8.003a2.921 2.921 0 1 0 4.131 4.132c4.37-4.37 4.66-11.298.87-16.008zM5.576 15.501a2.92 2.92 0 0 0-2.922 2.922a2.92 2.92 0 0 0 2.922 2.922a2.92 2.92 0 0 0 2.922-2.922A2.92 2.92 0 0 0 5.577 15.5zm10.07 1.467a6.168 6.168 0 0 1-7.293 0a3.14 3.14 0 0 1-.56 3.672a3.136 3.136 0 0 1-3.314.718c4.376 3.523 10.665 3.523 15.04 0a3.136 3.136 0 0 1-3.313-.718a3.138 3.138 0 0 1-.56-3.672z" />
+                </svg>
+                <h4>Marketing</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                    mattis, pulvinar dapibus
+                    leo.</p>
+            </div>
+            <div class="col card_1  card-effect">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <path fill="#E03B11"
+                        d="M21 5c-1.11-.35-2.33-.5-3.5-.5c-1.95 0-4.05.4-5.5 1.5c-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5c.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5c1.35-.85 3.8-1.5 5.5-1.5c1.65 0 3.35.3 4.75 1.05c.1.05.15.05.25.05c.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zM3 18.5V7c1.1-.35 2.3-.5 3.5-.5c1.34 0 3.13.41 4.5.99v11.5C9.63 18.41 7.84 18 6.5 18c-1.2 0-2.4.15-3.5.5zm18 0c-1.1-.35-2.3-.5-3.5-.5c-1.34 0-3.13.41-4.5.99V7.49c1.37-.59 3.16-.99 4.5-.99c1.2 0 2.4.15 3.5.5v11.5z" />
+                    <path fill="#E03B11"
+                        d="M11 7.49c-1.37-.58-3.16-.99-4.5-.99c-1.2 0-2.4.15-3.5.5v11.5c1.1-.35 2.3-.5 3.5-.5c1.34 0 3.13.41 4.5.99V7.49z"
+                        opacity=".3" />
+                    <path fill="#E03B11"
+                        d="M17.5 10.5c.88 0 1.73.09 2.5.26V9.24c-.79-.15-1.64-.24-2.5-.24c-1.28 0-2.46.16-3.5.47v1.57c.99-.35 2.18-.54 3.5-.54zm0 2.66c.88 0 1.73.09 2.5.26V11.9c-.79-.15-1.64-.24-2.5-.24c-1.28 0-2.46.16-3.5.47v1.57c.99-.34 2.18-.54 3.5-.54zm0 2.67c.88 0 1.73.09 2.5.26v-1.52c-.79-.15-1.64-.24-2.5-.24c-1.28 0-2.46.16-3.5.47v1.57c.99-.35 2.18-.54 3.5-.54z" />
+                </svg>
+                <h4>Personal Development</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                    mattis, pulvinar dapibus
+                    leo.</p>
+
+            </div>
+            <div class="col card_1  card-effect"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <path fill="#E03B11"
+                        d="M12 17.5q1.875 0 3.188-1.313T16.5 13q0-1.875-1.313-3.188T12 8.5q-1.875 0-3.188 1.313T7.5 13q0 1.875 1.313 3.188T12 17.5Zm0-2q-1.05 0-1.775-.725T9.5 13q0-1.05.725-1.775T12 10.5q1.05 0 1.775.725T14.5 13q0 1.05-.725 1.775T12 15.5ZM4 21q-.825 0-1.413-.588T2 19V7q0-.825.588-1.413T4 5h3.15L8.4 3.65q.275-.3.663-.475T9.874 3h4.25q.425 0 .813.175t.662.475L16.85 5H20q.825 0 1.413.588T22 7v12q0 .825-.588 1.413T20 21H4Zm0-2h16V7h-4.05l-1.825-2h-4.25L8.05 7H4v12Zm8-6Z" />
+                </svg>
+                <h4>Photo</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                    mattis, pulvinar dapibus
+                    leo.</p>
+            </div>
+
+        </div>
+
+        <button type="button" class="btn btn-success px-3 text-center mx-auto d-grid">View More
+        </button>
+    </div>
+
+
+    <!-- features -->
+
+    <div class="container mt-5 mb-5" id="features">
+        <div class="row gx-5">
+            <div class="col-md-6 col-12"> <img src="assets/tempsnip.png" alt="girl-reading"></div>
+            <div class="col-md-6 col-12 p-4 text-dark d-flex align-items-center justify-content-end">
+                <div class="row gy-3">
+                    <div class="col-3 d-flex align-items-center">
+                        <h1 style="color: #E03B11;
+    font-size: 50px;">45+</h1>
+                    </div>
+                    <div class="col-9">
+                        <h5>Best & Most Involved Teachers</h5>
+                        <p>Key features are the ability to develop relationships with their students, patient, caring,
+                            and
+                            kind personality,
+                            knowledge of learners. Engaging students in learning.</p>
+                    </div>
+                    <div class="col-3 d-flex align-items-center">
+                        <h1 style="color: #E03B11;
+    font-size: 50px;">1.2
+                            k</h1>
+                    </div>
+                    <div class="col-9">
+                        <h5>Large selection of courses</h5>
+                        <p>Explore a variety of fresh topics.
+                            Find the right instructor for you. Learn on your schedule.</p>
+                    </div>
+
+                    <div class="col-3 d-flex align-items-center">
+                        <h1 style="color: #E03B11;
+    font-size: 50px;">34</h1>
+                    </div>
+                    <div class="col-9">
+                        <h5>High-Quality Course Categories</h5>
+                        <p>For many years, we have been helping people of all inteersts adn ages learn and we have more
+                            positive reviews than
+                            anyone else.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- reviews of our students -->
+
+    <div class="container-fluid mt-5 mb-5 bg-dark text-light p-5" id="ratings">
+        <div id="carouselExampleControls" class="carousel slide text-center" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <h3 class="student_review pb-3">Check what our Students say about us</h3>
+                <div class="carousel-item active">
+                    <img class="rounded-circle shadow-1-strong mb-4"
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
+                        style="width: 150px;" />
+
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <h5 class="mb-3">Maria Kate</h5>
+                            <p>Photographer</p>
+                            <p class="text-muted">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                                nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                                fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
+                                doloremque.
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="far fa-star fa-sm"></i></li>
+                    </ul>
+
+
+                </div>
+                <div class="carousel-item">
+                    <img class="rounded-circle shadow-1-strong mb-4"
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
+                        style="width: 150px;" />
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <h5 class="mb-3">John Doe</h5>
+                            <p>Web Developer</p>
+                            <p class="text-muted">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                                nesciunt sint eligendi reprehenderit reiciendis.
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="far fa-star fa-sm"></i></li>
+                    </ul>
+                </div>
+                <div class="carousel-item">
+                    <img class="rounded-circle shadow-1-strong mb-4"
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar"
+                        style="width: 150px;" />
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <h5 class="mb-3">Anna Deynah</h5>
+                            <p>UX Designer</p>
+                            <p class="text-muted">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                                nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                                fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
+                                doloremque.
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="far fa-star fa-sm"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- curiousity -->
+    <div class="container mt-5 mb-5 bg-white text-dark">
+        <div class="row">
+            <div class="col-md-6 stats">
+                <h3 class="mb-3 p-3">Curiosity is the wick in the candle of Learning</h3>
+                <img src="assets/measuring.png" alt="measurement">
+
+            </div>
+            <div class="col-md-6 d-flex justify-content-end align-items-center">
+                <img src="assets/girls.png" alt="girl-reading">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="conatainer-fluid bg-dark text-light pt-5 pb-3" id="footer">
+        <div class="container footer-top ">
+            <h4>Connect us</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi labore repudiandae dolorum expedita nihil
+                quam?</p>
+        </div>
+        <div class="container pt-3">
+            <div class="row">
+
+                <div class="col-md-4 col-12 first-div">
+                    <h5>Talk with us</h5>
+
+                    <p>Phone:t+ 7899 9874 344</p>
+                    <p>mail:edulogyconnect@gmail.com</p>
+                    <p>support:supportteam.com</p>
+                </div>
+
+                <div class="col-md-4 col-12 second-div">
+                    <h5>Keep connected</h5>
+
+                    <div>
+                        <div class="d-flex  align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                <path fill="#fff"
+                                    d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z" />
+                            </svg>
+                            </svg>
+                            <h6 class="pt-2 mx-2">Instagram</h6>
+                        </div>
+
+
+                        <div class="d-flex  align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                <g fill="#fff" fill-rule="evenodd" clip-rule="evenodd">
+                                    <path
+                                        d="M10.386 8.357A.75.75 0 0 0 9.25 9v6a.75.75 0 0 0 1.136.643l5-3a.75.75 0 0 0 0-1.286l-5-3ZM13.542 12l-2.792 1.675v-3.35L13.542 12Z" />
+                                    <path
+                                        d="M17.03 4.641a64.499 64.499 0 0 0-10.06 0l-2.241.176a2.975 2.975 0 0 0-2.703 2.475a28.566 28.566 0 0 0 0 9.416a2.975 2.975 0 0 0 2.703 2.475l2.24.176c3.349.262 6.713.262 10.062 0l2.24-.176a2.975 2.975 0 0 0 2.703-2.475c.52-3.117.52-6.299 0-9.416a2.975 2.975 0 0 0-2.703-2.475l-2.24-.176ZM7.087 6.137a62.998 62.998 0 0 1 9.828 0l2.24.175c.676.053 1.229.56 1.34 1.228a27.066 27.066 0 0 1 0 8.92a1.475 1.475 0 0 1-1.34 1.228l-2.24.175a62.98 62.98 0 0 1-9.828 0l-2.24-.175a1.475 1.475 0 0 1-1.34-1.228a27.066 27.066 0 0 1 0-8.92a1.475 1.475 0 0 1 1.34-1.228l2.24-.175Z" />
+                                </g>
+                            </svg>
+                            <h6 class="pt-2 mx-2">Youtube</h6>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                <g fill="none" stroke="#ffff" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2">
+                                    <path
+                                        d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm4 5v5m0-8v.01M12 16v-5" />
+                                    <path d="M16 16v-3a2 2 0 0 0-4 0" />
+                                </g>
+                            </svg>
+                            <h6 class="pt-2 mx-2">Linkedin</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div>
+                        <h6 class="text-center text-light">
+                            Contact <span> Me</span>
+                        </h6>
+                    </div>
+                    <div class="container bg-newdark d-flex justify-content-center">
+                        <form action="">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Name" />
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Email ID" />
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" placeholder="Leave a comment here"
+                                    id="floatingTextarea"></textarea>
+                                <label for="floatingTextarea">Comments</label>
+                            </div>
+                            <div class="d-grid gap-2 col-6 mx-auto mb-4">
+                                <a href="#" class="btn btn-primary"><i class="fa-brands fa-telegram"></i> Send</a>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+    <script src="index.js"></script>
+    <!-- script -->
+
+</body>
+
+</html>

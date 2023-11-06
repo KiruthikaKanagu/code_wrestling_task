@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Plus+Jakarta+Sans&family=Roboto:wght@300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark: #1b1f24;
+    --color: #537fe7;
+    --section-color: #e9f8f9;
+    ----dark-blue-border: hsla(0, 0%, 100%, 0.1607843137254902);
+}
+
+.card-effect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+.btn-trade {
+    padding: 5px;
+    outline: none !important;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 0 2px;
+    text-align: center;
+    background: #3eb489;
+    color: #e9f8f9;
+}
+
+.btn-trade:hover {
+    background-color: #1e7c5a;
+    font-weight: 600;
+    color: #e9f8f9 !important;
+}
+
+.btn-green:hover {
+    background-color: #116949;
+    font-weight: 300;
+}
+
+.btn-custom-nav {
+    padding: 9px;
+    outline: none;
+    border: 1px solid #3e3e3e;
+    font-size: 12px;
+    border-radius: 5px;
+    margin: 0 3px;
+    text-align: center;
+    background: #424a52;
+    color: #e9f8f9 !important;
+}
+
+.btn-custom-nav:hover {
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #5f6872;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.student_review {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.Home-title {
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    letter-spacing: .3px;
+
+}
+
+.Home-description {
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+    color: #cac2c2;
+    margin-bottom: 2rem;
+    letter-spacing: .6px;
+}
+
+/* three feature */
+.card_1 {
+    border: 1px solid hsla(0, 0%, 100%, .0784313725490196);
+    border-radius: 4px;
+    box-shadow: 0 0.5rem 0.6rem rgba(0, 0, 0, .2);
+}
+
+.card_1 h4 {
+    margin: 20px 0;
+}
+
+.card_1 p {
+    line-height: 2rem;
+}
+
+
+/* explore */
+.explore {
+    line-height: 3rem;
+    background-color: #ddc5c5;
+}
+
+.explore h2 {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 4rem;
+
+}
+
+.explore p {
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 2rem;
+}
+
+.explore a {
+    font-size: 1.25rem;
+    color: #212529;
+
+}
+
+/* center element */
+.center-ele {
+    margin-top: 2rem;
+    padding: 5rem;
+    line-height: 4rem;
+}
+
+.center-ele h1 {
+    border-bottom: 2px solid #3e3e3e;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+
+.center-ele p {
+    margin-top: 30px;
+    line-height: 2rem;
+    padding-top: 10px;
+}
+
+.stats h3 {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.first-div h5 {
+    padding: 10px;
+    width: fit-content;
+    border-bottom: 1px solid #5f6872;
+}
+
+.second-div>h5 {
+    padding: 10px;
+    width: fit-content;
+    border-bottom: 1px solid #5f6872;
+}
+
+.footer h5 {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+/* dasboard */
+.stats-p {
+    color: #cecece;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.borders {
+    border: .5px solid #cecece;
+}
+
+.bottom-border {
+    border: .5px solid #cecece;
+}
+
+.table-img img {
+    margin: 0 10px;
+}
+
+.table-layout {
+    border: .5px solid #cecece;
+
+}
+
+small {
+    font-size: 12px;
+    padding: 5px;
+    color: #cecece;
+}
+
+.form{
+    width: 250px;
+}
+.dropdown {
+    position: absolute;
+    right: -58%;
+    top: 6%;
+    border-radius: 4px;
+}
+.invisible {
+    visibility: hidden !important;
+}
+
+
+ card-effect
+@media (max-width: 600px) {
+    .Home-title {
+        font-size: 2.9rem;
+        line-height: 3.5rem;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+        letter-spacing: 0;
+    }
+}
